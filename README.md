@@ -30,7 +30,18 @@ The same install names work for `anchor-browser` and `anchor-actions`. Claude Co
 ```bash
 grok mcp add --transport http anchor https://api.anchorbrowser.io/v1/mcp
 grok mcp add --transport http anchor-browser https://api.anchorbrowser.io/v1/mcp/browser
-grok mcp add --transport http anchor-actions https://api.anchorbrowser.io/v1/mcp/actions/amazon.com
+grok mcp add --transport http anchor-amazon https://api.anchorbrowser.io/v1/mcp/actions/amazon.com
 ```
 
 `.grok/config.toml` has the two servers with fixed URLs. Actions stay out of that file because the domain is part of the URL.
+
+## Several sites at once
+
+The `anchor-actions` plugin holds one domain per install. To use more than one site in parallel, add each as its own MCP server with a name that carries the site, in any client:
+
+```bash
+claude mcp add --transport http anchor-amazon   https://api.anchorbrowser.io/v1/mcp/actions/amazon.com
+claude mcp add --transport http anchor-linkedin https://api.anchorbrowser.io/v1/mcp/actions/linkedin.com
+```
+
+The servers share one sign-in, and tool names are prefixed with the site, so they do not collide.
