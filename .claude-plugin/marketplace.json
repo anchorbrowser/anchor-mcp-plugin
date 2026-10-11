@@ -22,7 +22,7 @@
     {
       "name": "anchor-actions",
       "source": "./anchor-actions",
-      "description": "Verified deterministic actions for one site. Set SITE_DOMAIN to the bare domain."
+      "description": "Verified deterministic actions for one site. Asks for the site domain when enabled."
     }
   ]
 }

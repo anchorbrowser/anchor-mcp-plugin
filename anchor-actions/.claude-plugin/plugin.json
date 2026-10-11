@@ -1,7 +1,7 @@
 {
   "name": "anchor-actions",
   "version": "1.0.0",
-  "description": "Verified deterministic actions for one site, each as a typed tool. Set SITE_DOMAIN to the bare domain, such as amazon.com.",
+  "description": "Verified deterministic actions for one site, each as a typed tool. Asks for the site domain, such as amazon.com, when enabled.",
   "author": {
     "name": "Anchor Browser",
     "email": "support@anchorbrowser.io"
@@ -9,5 +9,13 @@
   "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
   "repository": "https://github.com/anchorbrowser/anchor-mcp-plugin",
   "license": "MIT",
-  "keywords": ["browser", "automation", "actions", "mcp"]
+  "keywords": ["browser", "automation", "actions", "mcp"],
+  "userConfig": {
+    "SITE_DOMAIN": {
+      "type": "string",
+      "title": "Site domain",
+      "description": "Bare domain whose verified actions to expose, such as amazon.com. No scheme or path.",
+      "required": true
+    }
+  }
 }

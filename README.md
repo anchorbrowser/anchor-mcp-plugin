@@ -23,7 +23,7 @@ claude plugin marketplace add anchorbrowser/anchor-mcp-plugin
 claude plugin install anchor@anchorbrowser
 ```
 
-For actions, set `SITE_DOMAIN` to the bare domain before the first connection. The same install names work for `anchor-browser` and `anchor-actions`.
+The same install names work for `anchor-browser` and `anchor-actions`. Claude Code asks for the site domain when `anchor-actions` is enabled.
 
 ## Grok
 
