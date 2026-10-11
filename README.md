@@ -25,15 +25,25 @@ claude plugin install anchor@anchorbrowser
 
 The same install names work for `anchor-browser` and `anchor-actions`. Claude Code asks for the site domain when `anchor-actions` is enabled.
 
-## Grok
+## Grok Build
+
+Grok gets one plugin, `anchor`, that bundles the `anchor` and `anchor-browser` servers (see [`grok/`](grok/)):
 
 ```bash
+grok plugin install anchor --trust
+```
+
+Or add this repository as a marketplace, or skip plugins and register the servers directly:
+
+```bash
+grok plugin marketplace add anchorbrowser/anchor-mcp-plugin
+
 grok mcp add --transport http anchor https://api.anchorbrowser.io/v1/mcp
 grok mcp add --transport http anchor-browser https://api.anchorbrowser.io/v1/mcp/browser
 grok mcp add --transport http anchor-amazon https://api.anchorbrowser.io/v1/mcp/actions/amazon.com
 ```
 
-`.grok/config.toml` has the two servers with fixed URLs. Actions stay out of that file because the domain is part of the URL.
+`.grok/config.toml` has the two servers with fixed URLs. Actions stay out of the plugin and that file because the domain is part of the URL.
 
 ## Several sites at once
 

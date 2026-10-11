@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "anchor": {
+      "type": "http",
+      "url": "https://api.anchorbrowser.io/v1/mcp"
+    },
+    "anchor-browser": {
+      "type": "http",
+      "url": "https://api.anchorbrowser.io/v1/mcp/browser"
+    }
+  }
+}
