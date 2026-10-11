@@ -1,0 +1,17 @@
+{
+  "name": "anchor-browser",
+  "displayName": "Anchor Browser",
+  "version": "1.0.0",
+  "description": "Step-by-step control of a live Anchor browser: navigate, snapshot, click, type, screenshot, network and console logs, and Playwright code generation.",
+  "author": {
+    "name": "Anchor Browser",
+    "email": "support@anchorbrowser.io"
+  },
+  "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
+  "repository": "https://github.com/anchorbrowser/anchor-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["browser", "playwright", "automation", "mcp"],
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "anchor-actions": {
+      "type": "http",
+      "url": "https://api.anchorbrowser.io/v1/mcp/actions/${SITE_DOMAIN}"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "anchor-browser": {
+      "url": "https://api.anchorbrowser.io/v1/mcp/browser"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "anchorbrowser",
+  "owner": {
+    "name": "Anchor Browser",
+    "email": "support@anchorbrowser.io"
+  },
+  "metadata": {
+    "description": "Cloud browsers for AI agents.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "anchor",
+      "source": "./anchor",
+      "description": "Cloud browsers for agents: web tasks, verified site actions, managed logins with MFA, and browser sessions."
+    },
+    {
+      "name": "anchor-all",
+      "source": "./anchor-all",
+      "description": "Every Anchor REST capability as its own typed tool."
+    },
+    {
+      "name": "anchor-browser",
+      "source": "./anchor-browser",
+      "description": "Step-by-step control of a live Anchor browser."
+    },
+    {
+      "name": "anchor-actions",
+      "source": "./anchor-actions",
+      "description": "Verified deterministic actions for one site. Set SITE_DOMAIN to the bare domain."
+    }
+  ]
+}

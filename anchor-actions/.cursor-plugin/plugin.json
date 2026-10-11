@@ -1,0 +1,28 @@
+{
+  "name": "anchor-actions",
+  "displayName": "Anchor Actions",
+  "version": "1.0.0",
+  "description": "Verified deterministic actions for one site, each as a typed tool. Set the site domain when you install. Runs in an Anchor cloud browser with no LLM steps.",
+  "author": {
+    "name": "Anchor Browser",
+    "email": "support@anchorbrowser.io"
+  },
+  "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
+  "repository": "https://github.com/anchorbrowser/anchor-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["browser", "automation", "actions", "mcp"],
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SITE_DOMAIN": {
+        "type": "string",
+        "title": "Site domain",
+        "description": "Bare domain whose verified actions to expose, such as amazon.com. No scheme or path."
+      }
+    },
+    "required": ["SITE_DOMAIN"]
+  }
+}

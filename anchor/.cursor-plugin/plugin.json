@@ -1,0 +1,17 @@
+{
+  "name": "anchor",
+  "displayName": "Anchor",
+  "version": "1.0.0",
+  "description": "Cloud browsers for agents: web tasks that get past bot detection, verified site actions, managed logins with MFA, and browser sessions. No concurrency limits.",
+  "author": {
+    "name": "Anchor Browser",
+    "email": "support@anchorbrowser.io"
+  },
+  "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
+  "repository": "https://github.com/anchorbrowser/anchor-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["browser", "automation", "web", "scraping", "authentication", "playwright", "mcp"],
+  "logo": "assets/logo.svg",
+  "category": "productivity",
+  "mcpServers": "./mcp.json"
+}
