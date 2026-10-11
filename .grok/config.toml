@@ -1,8 +1,5 @@
 [mcp_servers.anchor]
 url = "https://api.anchorbrowser.io/v1/mcp"
 
-[mcp_servers.anchor-all]
-url = "https://api.anchorbrowser.io/v1/mcp/all"
-
 [mcp_servers.anchor-browser]
 url = "https://api.anchorbrowser.io/v1/mcp/browser"

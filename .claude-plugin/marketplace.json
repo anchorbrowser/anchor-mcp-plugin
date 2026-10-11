@@ -15,11 +15,6 @@
       "description": "Cloud browsers for agents: web tasks, verified site actions, managed logins with MFA, and browser sessions."
     },
     {
-      "name": "anchor-all",
-      "source": "./anchor-all",
-      "description": "Every Anchor REST capability as its own typed tool."
-    },
-    {
       "name": "anchor-browser",
       "source": "./anchor-browser",
       "description": "Step-by-step control of a live Anchor browser."

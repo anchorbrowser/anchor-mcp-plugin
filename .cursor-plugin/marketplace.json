@@ -5,7 +5,7 @@
     "email": "support@anchorbrowser.io"
   },
   "metadata": {
-    "description": "Cloud browsers for AI agents. Install Anchor to start. Install Anchor (all) only instead of Anchor. Anchor Actions needs a site domain."
+    "description": "Cloud browsers for AI agents. Install Anchor to start. Anchor Actions needs a site domain."
   },
   "plugins": [
     {
@@ -13,13 +13,6 @@
       "source": "anchor",
       "description": "Cloud browsers for agents: web tasks that get past bot detection, verified site actions, managed logins with MFA, and browser sessions. No concurrency limits.",
       "keywords": ["browser", "automation", "web", "scraping", "authentication", "playwright", "mcp"],
-      "category": "productivity"
-    },
-    {
-      "name": "anchor-all",
-      "source": "anchor-all",
-      "description": "Every Anchor REST capability as its own typed tool. Install this instead of Anchor when the client can hold a large tool list.",
-      "keywords": ["browser", "automation", "api", "mcp"],
       "category": "productivity"
     },
     {

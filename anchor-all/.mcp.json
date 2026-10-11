@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "anchor-all": {
-      "type": "http",
-      "url": "https://api.anchorbrowser.io/v1/mcp/all"
-    }
-  }
-}
