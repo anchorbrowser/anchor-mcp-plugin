@@ -27,10 +27,10 @@ The same install names work for `anchor-browser` and `anchor-actions`. Claude Co
 
 ## Grok Build
 
-Grok gets one plugin, `anchor`, that bundles the `anchor` and `anchor-browser` servers (see [`grok/`](grok/)):
+Grok gets one plugin, `anchorbrowser`, that bundles the `anchor` and `anchor-browser` servers (see [`grok/`](grok/)):
 
 ```bash
-grok plugin install anchor --trust
+grok plugin install anchorbrowser --trust
 ```
 
 Or add this repository as a marketplace, or skip plugins and register the servers directly:

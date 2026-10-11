@@ -1,5 +1,6 @@
 {
   "name": "anchor-actions",
+  "displayName": "Anchor Actions",
   "version": "1.0.0",
   "description": "Verified deterministic actions for one site, each as a typed tool. Asks for the site domain, such as amazon.com, when enabled.",
   "author": {

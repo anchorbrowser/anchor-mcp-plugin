@@ -11,16 +11,19 @@
   "plugins": [
     {
       "name": "anchor",
+      "displayName": "Anchor Browser",
       "source": "./anchor",
       "description": "Cloud browsers for agents: web tasks, verified site actions, managed logins with MFA, and browser sessions."
     },
     {
       "name": "anchor-browser",
+      "displayName": "Anchor Browser: Live Control",
       "source": "./anchor-browser",
       "description": "Step-by-step control of a live Anchor browser."
     },
     {
       "name": "anchor-actions",
+      "displayName": "Anchor Actions",
       "source": "./anchor-actions",
       "description": "Verified deterministic actions for one site. Asks for the site domain when enabled."
     }

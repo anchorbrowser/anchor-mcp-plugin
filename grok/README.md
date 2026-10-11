@@ -12,7 +12,7 @@ Start with `anchor` for anything that should just get done; use `anchor-browser`
 ## Install
 
 ```bash
-grok plugin install anchor --trust
+grok plugin install anchorbrowser --trust
 ```
 
 Or straight from this repository:

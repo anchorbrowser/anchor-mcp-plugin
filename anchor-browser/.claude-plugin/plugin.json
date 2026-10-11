@@ -1,5 +1,6 @@
 {
   "name": "anchor-browser",
+  "displayName": "Anchor Browser: Live Control",
   "version": "1.0.0",
   "description": "Step-by-step control of a live Anchor browser: navigate, snapshot, click, type, screenshot, network and console logs, and Playwright code generation.",
   "author": {

@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "anchor",
+      "name": "anchorbrowser",
       "description": "Anchor's hosted MCP servers: web tasks that get past bot detection, verified site actions, managed logins with MFA, browser sessions, and step-by-step control of a live browser.",
       "category": "development",
       "source": { "type": "local", "path": "./grok" },
