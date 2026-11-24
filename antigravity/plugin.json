@@ -1,0 +1,21 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "anchorbrowser",
+  "displayName": "Anchor Browser",
+  "version": "1.0.0",
+  "description": "Cloud browsers for agents: run web tasks, call verified site actions, manage logins with MFA, and control a live browser step by step.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Open news.ycombinator.com in an Anchor browser and return the top 5 stories with title, points, and link",
+    "Search the Anchor action index for verified actions on amazon.com and run a product search for usb c cables",
+    "Go to example.com in a live Anchor browser, take a snapshot, and generate Playwright code for the steps"
+  ],
+  "author": {
+    "name": "Anchor Browser",
+    "url": "https://anchorbrowser.io"
+  },
+  "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
+  "repository": "https://github.com/anchorbrowser/anchor-mcp-plugin",
+  "license": "MIT",
+  "keywords": ["browser", "automation", "web", "authentication", "playwright", "mcp"]
+}

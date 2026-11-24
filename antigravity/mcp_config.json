@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "anchor": {
+      "serverUrl": "https://api.anchorbrowser.io/v1/mcp",
+      "tools": {
+        "perform_web_task": { "eager": true },
+        "get_web_task_status": { "eager": true },
+        "create_session": { "eager": true },
+        "end_session": { "eager": true },
+        "search_action_index": { "eager": true },
+        "execute_action_index": { "eager": true }
+      }
+    },
+    "anchor-browser": {
+      "serverUrl": "https://api.anchorbrowser.io/v1/mcp/browser",
+      "tools": {
+        "anchor_navigate": { "eager": true },
+        "anchor_snapshot": { "eager": true },
+        "anchor_click": { "eager": true },
+        "anchor_type": { "eager": true },
+        "anchor_take_screenshot": { "eager": true }
+      }
+    }
+  }
+}
