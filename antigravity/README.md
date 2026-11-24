@@ -12,11 +12,10 @@ Start with `anchor` for anything that should just get done; use `anchor-browser`
 ## Install
 
 ```bash
-git clone https://github.com/anchorbrowser/anchor-mcp-plugin
-agy plugin install ./anchor-mcp-plugin/antigravity
+agy plugin install https://github.com/anchorbrowser/anchor-mcp-plugin/tree/main/antigravity
 ```
 
-Install the `antigravity` folder, not the repository root: the root also holds the Claude Code and Cursor plugins, and Antigravity would import each of those as a separate plugin.
+Install this folder, not the repository root: the root also holds the Claude Code and Cursor plugins, and Antigravity would import each of those as a separate plugin.
 
 Then run `/plugin` in the CLI, expand **anchorbrowser** under Installed, and choose **Sign in** for each server. In the Antigravity App, use **Customizations > Installed**.
 

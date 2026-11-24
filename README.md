@@ -50,8 +50,7 @@ grok mcp add --transport http anchor-amazon https://api.anchorbrowser.io/v1/mcp/
 Antigravity gets one plugin, `anchorbrowser`, that bundles the `anchor` and `anchor-browser` servers (see [`antigravity/`](antigravity/)):
 
 ```bash
-git clone https://github.com/anchorbrowser/anchor-mcp-plugin
-agy plugin install ./anchor-mcp-plugin/antigravity
+agy plugin install https://github.com/anchorbrowser/anchor-mcp-plugin/tree/main/antigravity
 ```
 
 Install that folder, not the repository root, or Antigravity also imports the Claude Code plugins as separate entries. Run `/plugin`, expand **anchorbrowser** under Installed, and choose **Sign in** for each server. Site actions for any domain run through the `anchor` server; to get one site's actions as their own tools, add it as a server:
