@@ -1,12 +1,13 @@
 {
   "name": "anchor-actions",
   "displayName": "Anchor Actions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Verified deterministic actions for one site, each as a typed tool. Asks for the site domain, such as amazon.com, when enabled.",
   "author": {
     "name": "Anchor Browser",
     "email": "support@anchorbrowser.io"
   },
+  "privacyPolicyUrl": "https://anchorbrowser.io/privacy-policy",
   "homepage": "https://docs.anchorbrowser.io/advanced/mcp",
   "repository": "https://github.com/anchorbrowser/anchor-mcp-plugin",
   "license": "MIT",
