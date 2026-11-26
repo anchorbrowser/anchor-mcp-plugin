@@ -20,6 +20,13 @@
         "anchor_type": { "eager": true },
         "anchor_take_screenshot": { "eager": true }
       }
+    },
+    "anchor-actions": {
+      "serverUrl": "https://api.anchorbrowser.io/v1/mcp/actions",
+      "tools": {
+        "find_actions": { "eager": true },
+        "run_action": { "eager": true }
+      }
     }
   }
 }
