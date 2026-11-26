@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "anchor",
+      "name": "anchorbrowser",
       "displayName": "Anchor Browser",
       "source": "./anchor",
       "description": "Cloud browsers for agents: web tasks, verified site actions, managed logins with MFA, and browser sessions."
