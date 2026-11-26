@@ -45,6 +45,20 @@ grok mcp add --transport http anchor-amazon https://api.anchorbrowser.io/v1/mcp/
 
 `.grok/config.toml` has the two servers with fixed URLs. Actions stay out of the plugin and that file because the domain is part of the URL.
 
+## Antigravity
+
+Antigravity gets one plugin, `anchorbrowser`, that bundles the `anchor`, `anchor-browser` and `anchor-actions` servers (see [`antigravity/`](antigravity/)):
+
+```bash
+agy plugin install https://github.com/anchorbrowser/anchor-mcp-plugin/tree/main/antigravity
+```
+
+Install that folder, not the repository root, or Antigravity also imports the Claude Code plugins as separate entries. Run `/plugin`, expand **anchorbrowser** under Installed, and choose **Sign in** for each server. Site actions for any domain run through the bundled `anchor-actions` server (`https://api.anchorbrowser.io/v1/mcp/actions`); to get one site's actions as their own tools, add it as a server:
+
+```bash
+agy mcp add anchor-amazon https://api.anchorbrowser.io/v1/mcp/actions/amazon.com
+```
+
 ## Several sites at once
 
 The `anchor-actions` plugin holds one domain per install. To use more than one site in parallel, add each as its own MCP server with a name that carries the site, in any client:
